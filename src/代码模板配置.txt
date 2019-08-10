@@ -1,0 +1,295 @@
+{
+	// Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and 
+	// description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope 
+	// is left empty or omitted, the snippet gets applied to all languages. The prefix is what is 
+	// used to trigger the snippet and the body will be expanded and inserted. Possible variables are: 
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. 
+	// Placeholders with the same ids are connected.
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+    // }
+    
+        "vue": {
+            "prefix": "vue", // 快捷指令
+            "body": [
+                "<template lang='pug'>\n",
+                "</template>\n",
+                "<script lang='ts'>",
+                "import { Component, Vue } from 'vue-property-decorator'\n",
+                "@Component",
+                "export default class $1 extends Vue {",
+                "}\n",
+                "</script>\n",
+                "<style lang='scss' scoped>\n",
+                "</style>\n"
+            ],
+            "description": "Vue Template"
+        },
+        "arr": {
+            "prefix": "arr", // 快捷指令
+            "body": [
+                "($1) => {",
+                "$2        ",
+                "}"
+            ],
+            "description": "Arrow function"
+        },
+        "ff": {
+            "prefix": "ff", // 快捷指令
+            "body": [
+                "for ($1) {",
+                "$2        ",
+                "}"
+            ],
+            "description": "for"
+        },
+        "for2": {
+            "prefix": "for2", // 快捷指令
+            "body": [
+                "for (let i = 0; i <= $1; i++) {",
+                "$2        ",
+                "}"
+            ],
+            "description": "for2"
+        },
+        "log": {
+            "prefix": "log", // 快捷指令
+            "body": "console.log($1)$2",
+            "description": "console.log"
+        },
+        "fun1": {
+            "prefix": "fun1", // 快捷指令
+            "body": [
+                "function $1(){",
+                " $2       ",
+                "}"
+            ],
+            "description": "function $1(){}"
+        },
+        "iff": {
+            "prefix": "iff", // 快捷指令
+            "body": [
+                "if ($1){",
+                " $2       ",
+                "}"
+            ],
+            "description": "if ($1){}"
+        },
+        "function": {
+            "prefix": "function", // 快捷指令
+            "body": [
+                "function $1(){",
+                "$2        ",
+                "}"
+            ],
+            "description": "function $1(){}"
+        },
+        "els": {
+            "prefix": "els", // 快捷指令
+            "body": [
+                "else {",
+                " $1       ",
+                "}"
+            ],
+            "description": "else{}"
+        },
+        "Print to cssTitle": {
+            "prefix": "cssNoteTitle",
+            "body": [
+              "/*",
+              " *@description: ",
+              " *@author: 查嘉磊 ",
+              " *@date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}",
+              " *@version V1.0.5 ",
+              "*/"
+            ],
+            "description": "Title对应css注释标题"
+          },
+          "Print to cssItem":{
+            "prefix": "cssNoteItem",
+            "body": [
+              "/*",
+              " *@description: ",
+              " *@author: 查嘉磊 ",
+              " *@date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}",
+              "*/"
+            ],
+            "description": "Item对应css类注释"
+          },
+          "Print to jsNoteTitle": {
+            "prefix": "jsNoteTitle",
+            "body": [
+              "/*",
+              " *@description:",
+              " *@author: Wai HoYu",
+              " *@date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}",
+              " *@version: V1.0.5",
+              "*/"
+            ],
+            "description": ""
+          },
+          "Print to jsfn": {
+            "prefix": "jsfn",
+            "body": [
+              "/*",
+              " *@functionName: ${TM_CURRENT_LINE}",
+              " *@params1: ${1:参数1}",
+              " *@params2: ${2:参数2}",
+              " *@params3: ${3:参数3}",
+              " *@params4: ${4:参数4}",
+              " *@description:",
+              " *@author: Wai HoYu",
+              " *@date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}",
+              " *@version: V1.0.5",
+              "*/"
+            ],
+            "description": ""
+          },
+          "Print to jsModify": {
+            "prefix": "jsModify",
+            "body": [
+              "/*",
+              " *@description:",
+              " *@modifyContent:",
+              " *@author: Wai HoYu",
+              " *@date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}",
+              "*/"
+            ],
+            "description": ""
+          },
+          "Print to jsVariable": {
+            "prefix": "jsVariable",
+            "body": [
+              "/*",
+              " *@description:",
+              " *@author: Wai HoYu",
+              " *@date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}",
+              " *@variable1: ${1:变量1}",
+              " *@variable2: ${2:变量2}",
+              " *@variable3: ${3:变量3}",
+              " *@variable4: ${4:变量4}",
+              " *@variable5: ${5:变量5}",
+              "*/"
+            ],
+            "description": ""
+          },
+          "Print to htmlStart": {
+            "prefix": "htmlStart",
+            "body": [
+                "<!-- $0start @author: Wai HoYu !-->"
+            ],
+            "description": " Start在html区块开始时使用"
+        },
+        "Print to htmlItem": {
+            "prefix": "htmlEnd",
+            "body": [
+                "<!-- $0end @author: Wai HoYu !-->"
+            ],
+            "description": " End在html区块开始时使用"
+        },
+        "Print to vueTitle": {
+            "prefix": "vueTitle",
+            "body": [
+              "<!-- ",
+              " * @description: ",
+              " * @fileName: ${TM_FILENAME} ",
+              " * @author: Wai HoYu ",
+              " * @date: ${CURRENT_YEAR}-${CURRENT_MONTH}-${CURRENT_DATE} ${CURRENT_HOUR}:${CURRENT_MINUTE}:${CURRENT_SECOND}",
+              " * @后台人员: $1 ",
+              " * @version: V1.0.5 ",
+              "!-->"
+            ],
+            "description": "在vue文件开头配置注释"
+          },
+          "Print to console": {
+            "prefix": "vue",
+            "body": [
+                "               ",
+                "<!-- $1 -->",
+                "<template>",
+                "   <div class='$2'>$5</div>",
+                "</template>",
+                "",
+                "<script  type=\"text/ecmascript-6\">"   ,
+                "       //这里可以导入其他文件（比如：组件，工具js，第三方插件js，json文件，图片文件等等）",
+                "       //例如：import 《组件名称》 from '《组件路径》';",
+                "                                                       ",
+                "       export default {",
+                "           data() {",
+                "           //这里存放数据",
+                "           return { ",
+                "                    ",
+                "               };",
+                "           },",
+                "           props() {",
+                "           //这里存放属性",
+                "           },",                
+                "        //import引入的组件需要注入到对象中才能使用",
+                "        components: {",
+                "               ",                    
+                "        },",
+                "       //监听属性 类似于data概念",
+                "       computed: {",
+                "               ",                    
+                "        },",
+                "       //监控data中的数据变化",
+                "       watch: {",
+                "               ",                    
+                "        },",
+                "       //方法集合",
+                "       methods: {",
+                "               ",
+                "       },",
+                "       //生命周期 - 创建完成（可以访问当前this实例）",
+                "       created() {",
+                "               ",
+                "       },",
+                "       //生命周期 - 挂载完成（可以访问DOM元素）",
+                "       mounted() {",
+                "               ",
+                "       },",
+                "       //生命周期 - 创建之前",
+                "       beforeCreate() { ",
+                "                       ",
+                "       },",
+                "       //生命周期 - 挂载之前",
+                "       beforeMount() { ",
+                "                       ",
+                "       },",
+                "       //生命周期 - 更新之前",
+                "       beforeUpdate() { ",
+                "                       ",
+                "       },",
+                "       //生命周期 - 更新之后",
+                "       updated() { ",
+                "                       ",
+                "       },",
+                "       //生命周期 - 销毁之前",
+                "       beforeDestroy() { ",
+                "                       ",
+                "       },",                
+                "       //生命周期 - 销毁完成",
+                "       destroyed() { ",
+                "                       ",
+                "       },", 
+                "       //如果页面有keep-alive缓存功能，这个函数会触发",
+                "       activated() { ",
+                "                       ",
+                "       },", 
+                "   }",
+                "   </script>",
+                "   <style scoped lang=\"stylus\" rel=\"stylesheet/stylus\">",
+                "       //@import url($3); 引入公共css类",
+                "       $4",
+                "   </style>"
+            ],
+            "description": "Log output to console"
+        }
+}
