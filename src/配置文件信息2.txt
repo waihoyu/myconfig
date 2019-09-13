@@ -1,0 +1,182 @@
+/**
+  git config --global user.email "13701343809@qq.com"
+  git config --global user.name "waihoyu"
+*/
+
+{
+  "workbench.startupEditor": "newUntitledFile",
+  "pasteAndIndent.selectAfter": true,
+  "editor.minimap.enabled": false,
+  "editor.fontSize": 18,
+  "workbench.statusBar.feedback.visible": false,
+  // "workbench.colorTheme": "Default Dark+"
+  "editor.fontFamily": "Consolas,'Courier New', monospace",
+  // Set backgroundColor
+  "highlight-icemode.backgroundColor": "#D2FAB5",
+  // Set Border Color
+  "highlight-icemode.borderColor": "blue",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "Consolas",
+  "guides.enabled": false,
+  "workbench.activityBar.visible": false, // 两个选择器中是否换行
+  // "update.channel": "none",
+  "update.channel": "default",
+  "extensions.ignoreRecommendations": true, // 图标主题
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorCustomizations": {
+    "statusBar.background": "#1A1A1A",
+    "statusBar.noFolderBackground": "#0A0A0D",
+    "statusBar.debuggingBackground": "#511f1f",
+    "editorLineNumber.foreground": "#17a346",
+    "editorGutter.background": "#020230",
+    "editorCursor.foreground": "#d41313",
+
+    // 顶部 tab 栏
+    "tab.border": "#2e2e2e",
+    "tab.activeBackground": "#2e2e2e",
+    "tab.activeForeground": "#cfcfcf",
+    "tab.activeBorder": "#5b99fcb9",
+    "tab.hoverBackground": "#2e2e2e",
+    "tab.hoverBorder": "#5b99fcb9",
+    "tab.inactiveForeground": "#8e8e8e",
+    // 标尺
+    "editorRuler.foreground": "#3f3f3f",
+    // 快捷提示窗口
+    "editorSuggestWidget.highlightForeground": "#7bfc5ba2",
+    "editorSuggestWidget.selectedBackground": "#333f5c",
+    // 单击一个词时，其它相同单词
+    "editor.selectionHighlightBackground": "#ffe7921c",
+    "editor.selectionBackground": "#434e61c9",
+    // "editor.selectionHighlightBorder": "#90e97259",
+    // terminal 中的光标
+    "terminalCursor.foreground": "#7bfc5bb9",
+    // 侧边栏中一块区域的标题
+    "sideBarSectionHeader.background": "#32363d",
+    // 区域获取焦点时
+    "focusBorder": "#5b99fc36"
+  },
+
+  
+  //"window.menuBarVisibility": "toggle",
+  "window.menuBarVisibility": "default",
+  "workbench.sideBar.location": "left",
+  "materialTheme.fixIconsRunning": false,
+  "search.followSymlinks": false,
+  "editor.wordWrap": "on",
+  "editor.tabSize": 4,
+  // "workbench.iconTheme": "vscode-icons",
+  "workbench.colorCustomizations1": {
+    "[One Monokai]": {
+      // 编辑区域背景
+      "editor.background": "#2E2E2E",
+      // 侧边栏
+      "sideBar.background": "#2b2b2b",
+      "sideBar.foreground": "#999",
+      "sideBar.border": "#2b2b2b",
+      // 侧边栏列表
+      "list.inactiveSelectionBackground": "#32363d",
+      "list.inactiveSelectionForeground": "#dfdfdf",
+      "list.hoverBackground": "#32363d",
+      "list.hoverForeground": "#dfdfdf",
+      // peek 窗口
+      "peekView.border": "#5b99fc9c",
+      // 顶部 tab 栏
+      "tab.border": "#2e2e2e",
+      "tab.activeBackground": "#2e2e2e",
+      "tab.activeForeground": "#cfcfcf",
+      "tab.activeBorder": "#5b99fcb9",
+      "tab.hoverBackground": "#2e2e2e",
+      "tab.hoverBorder": "#5b99fcb9",
+      "tab.inactiveForeground": "#8e8e8e",
+      // 最左侧工具栏
+      "activityBar.background": "#2e2e2e",
+      // 状态栏
+      "statusBar.background": "#2a2a2a",
+      // panel 窗口
+      "panelTitle.activeBorder": "#5b99fc5b",
+      "panelTitle.activeForeground": "#cfcfcf",
+      // 光标
+      "editorCursor.foreground": "#7bfc5bb9",
+      // 当前行
+      "editor.lineHighlightBackground": "#32363d",
+      // 行号栏的当前行
+      "editorActiveLineNumber.foreground": "#9CA5B4",
+      // 行号
+      "editorLineNumber.foreground": "#020230",
+      "editorGutter.background": "#7bfc5bb9",
+      "'peekViewEditorGutter.background": "#5b99fc5b",
+      // 标尺
+      "editorRuler.foreground": "#3f3f3f",
+      // 快捷提示窗口
+      "editorSuggestWidget.highlightForeground": "#7bfc5ba2",
+      "editorSuggestWidget.selectedBackground": "#333f5c",
+      // 单击一个词时，其它相同单词
+      "editor.selectionHighlightBackground": "#ffe7921c",
+      "editor.selectionBackground": "#434e61c9",
+      // "editor.selectionHighlightBorder": "#90e97259",
+      // terminal 中的光标
+      "terminalCursor.foreground": "#7bfc5bb9",
+      // 侧边栏中一块区域的标题
+      "sideBarSectionHeader.background": "#32363d",
+      // 区域获取焦点时
+      "focusBorder": "#5b99fc36",
+      // Gutter indicators (left)
+      "editorGutter.modifiedBackground": "#5b99fc36",
+      "editorGutter.addedBackground": "#7bfc5bb9",
+      "editorGutter.deletedBackground": "#cfcfcf",
+      // Scrollbar indicators (right)
+      "editorOverviewRuler.addedForeground": "#5b99fc36",
+      "editorOverviewRuler.modifiedForeground": "#5b99fc36",
+      "editorOverviewRuler.deletedForeground": "#5b99fc36"
+    }
+  },
+  "files.autoSave": "afterDelay",
+  // Emmet 支持 react
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  // html 中 style 属性里写 css 快速提示
+  "[html]": {
+    "editor.quickSuggestions": {
+      "other": false,
+      "comments": false,
+      "strings": true
+    }
+  },
+  "sync.gist": "4c3c1d4d34bd1958498ae1fc0b13c93c",
+  "sync.host": "",
+  "sync.pathPrefix": "",
+  "sync.quietSync": false,
+  "sync.askGistName": false,
+  "sync.removeExtensions": true,
+  "sync.syncExtensions": true,
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.lastUpload": "2018-07-28T14:14:17.659Z",
+  "sync.lastDownload": "",
+  "sync.forceDownload": false,
+  "terminal.integrated.shell.windows": "C:\\windows\\System32\\cmd.exe",
+  "window.zoomLevel": 0,
+  "emmet.syntaxProfiles": {
+    "vue-html": "html",
+    "vue": "html"
+  },
+  "eslint.validate": ["javascript", "javascriptreact", "html", "vue"],
+  "eslint.options": {
+    "plugins": ["html"]
+  },
+  "python.jediEnabled": false,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.formatOnType": false,
+  "editor.detectIndentation": false,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.cursorBlinking": "smooth",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorWidth": 3,
+"workbench.colorTheme": "Monokai"
+}
