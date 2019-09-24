@@ -3,6 +3,7 @@
   git config --global user.name "waihoyu"
 */
 
+
 {
   "workbench.startupEditor": "newUntitledFile",
   "pasteAndIndent.selectAfter": true,
@@ -21,10 +22,10 @@
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.fontFamily": "Consolas",
   "guides.enabled": false,
-  "workbench.activityBar.visible": false, // Á½¸öÑ¡ÔñÆ÷ÖÐÊÇ·ñ»»ÐÐ
+  "workbench.activityBar.visible": false, // ï¿½ï¿½ï¿½ï¿½Ñ¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½
   // "update.channel": "none",
   "update.channel": "default",
-  "extensions.ignoreRecommendations": true, // Í¼±êÖ÷Ìâ
+  "extensions.ignoreRecommendations": true, // Í¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
   "workbench.iconTheme": "vscode-icons",
   "workbench.colorCustomizations": {
     "statusBar.background": "#1A1A1A",
@@ -34,7 +35,7 @@
     "editorGutter.background": "#020230",
     "editorCursor.foreground": "#d41313",
 
-    // ¶¥²¿ tab À¸
+    // ï¿½ï¿½ï¿½ï¿½ tab ï¿½ï¿½
     "tab.border": "#2e2e2e",
     "tab.activeBackground": "#2e2e2e",
     "tab.activeForeground": "#cfcfcf",
@@ -42,20 +43,20 @@
     "tab.hoverBackground": "#2e2e2e",
     "tab.hoverBorder": "#5b99fcb9",
     "tab.inactiveForeground": "#8e8e8e",
-    // ±ê³ß
+    // ï¿½ï¿½ï¿½
     "editorRuler.foreground": "#3f3f3f",
-    // ¿ì½ÝÌáÊ¾´°¿Ú
+    // ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½
     "editorSuggestWidget.highlightForeground": "#7bfc5ba2",
     "editorSuggestWidget.selectedBackground": "#333f5c",
-    // µ¥»÷Ò»¸ö´ÊÊ±£¬ÆäËüÏàÍ¬µ¥´Ê
+    // ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½
     "editor.selectionHighlightBackground": "#ffe7921c",
     "editor.selectionBackground": "#434e61c9",
     // "editor.selectionHighlightBorder": "#90e97259",
-    // terminal ÖÐµÄ¹â±ê
+    // terminal ï¿½ÐµÄ¹ï¿½ï¿½
     "terminalCursor.foreground": "#7bfc5bb9",
-    // ²à±ßÀ¸ÖÐÒ»¿éÇøÓòµÄ±êÌâ
+    // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½
     "sideBarSectionHeader.background": "#32363d",
-    // ÇøÓò»ñÈ¡½¹µãÊ±
+    // ï¿½ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½Ê±
     "focusBorder": "#5b99fc36"
   },
 
@@ -70,20 +71,20 @@
   // "workbench.iconTheme": "vscode-icons",
   "workbench.colorCustomizations1": {
     "[One Monokai]": {
-      // ±à¼­ÇøÓò±³¾°
+      // ï¿½à¼­ï¿½ï¿½ï¿½ò±³¾ï¿½
       "editor.background": "#2E2E2E",
-      // ²à±ßÀ¸
+      // ï¿½ï¿½ï¿½ï¿½ï¿½
       "sideBar.background": "#2b2b2b",
       "sideBar.foreground": "#999",
       "sideBar.border": "#2b2b2b",
-      // ²à±ßÀ¸ÁÐ±í
+      // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð±ï¿½
       "list.inactiveSelectionBackground": "#32363d",
       "list.inactiveSelectionForeground": "#dfdfdf",
       "list.hoverBackground": "#32363d",
       "list.hoverForeground": "#dfdfdf",
-      // peek ´°¿Ú
+      // peek ï¿½ï¿½ï¿½ï¿½
       "peekView.border": "#5b99fc9c",
-      // ¶¥²¿ tab À¸
+      // ï¿½ï¿½ï¿½ï¿½ tab ï¿½ï¿½
       "tab.border": "#2e2e2e",
       "tab.activeBackground": "#2e2e2e",
       "tab.activeForeground": "#cfcfcf",
@@ -91,37 +92,37 @@
       "tab.hoverBackground": "#2e2e2e",
       "tab.hoverBorder": "#5b99fcb9",
       "tab.inactiveForeground": "#8e8e8e",
-      // ×î×ó²à¹¤¾ßÀ¸
+      // ï¿½ï¿½ï¿½ï¿½à¹¤ï¿½ï¿½ï¿½ï¿½
       "activityBar.background": "#2e2e2e",
-      // ×´Ì¬À¸
+      // ×´Ì¬ï¿½ï¿½
       "statusBar.background": "#2a2a2a",
-      // panel ´°¿Ú
+      // panel ï¿½ï¿½ï¿½ï¿½
       "panelTitle.activeBorder": "#5b99fc5b",
       "panelTitle.activeForeground": "#cfcfcf",
-      // ¹â±ê
+      // ï¿½ï¿½ï¿½
       "editorCursor.foreground": "#7bfc5bb9",
-      // µ±Ç°ÐÐ
+      // ï¿½ï¿½Ç°ï¿½ï¿½
       "editor.lineHighlightBackground": "#32363d",
-      // ÐÐºÅÀ¸µÄµ±Ç°ÐÐ
+      // ï¿½Ðºï¿½ï¿½ï¿½ï¿½Äµï¿½Ç°ï¿½ï¿½
       "editorActiveLineNumber.foreground": "#9CA5B4",
-      // ÐÐºÅ
+      // ï¿½Ðºï¿½
       "editorLineNumber.foreground": "#020230",
       "editorGutter.background": "#7bfc5bb9",
       "'peekViewEditorGutter.background": "#5b99fc5b",
-      // ±ê³ß
+      // ï¿½ï¿½ï¿½
       "editorRuler.foreground": "#3f3f3f",
-      // ¿ì½ÝÌáÊ¾´°¿Ú
+      // ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½
       "editorSuggestWidget.highlightForeground": "#7bfc5ba2",
       "editorSuggestWidget.selectedBackground": "#333f5c",
-      // µ¥»÷Ò»¸ö´ÊÊ±£¬ÆäËüÏàÍ¬µ¥´Ê
+      // ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½ï¿½ï¿½
       "editor.selectionHighlightBackground": "#ffe7921c",
       "editor.selectionBackground": "#434e61c9",
       // "editor.selectionHighlightBorder": "#90e97259",
-      // terminal ÖÐµÄ¹â±ê
+      // terminal ï¿½ÐµÄ¹ï¿½ï¿½
       "terminalCursor.foreground": "#7bfc5bb9",
-      // ²à±ßÀ¸ÖÐÒ»¿éÇøÓòµÄ±êÌâ
+      // ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½
       "sideBarSectionHeader.background": "#32363d",
-      // ÇøÓò»ñÈ¡½¹µãÊ±
+      // ï¿½ï¿½ï¿½ï¿½ï¿½È¡ï¿½ï¿½ï¿½ï¿½Ê±
       "focusBorder": "#5b99fc36",
       // Gutter indicators (left)
       "editorGutter.modifiedBackground": "#5b99fc36",
@@ -134,12 +135,12 @@
     }
   },
   "files.autoSave": "afterDelay",
-  // Emmet Ö§³Ö react
+  // Emmet Ö§ï¿½ï¿½ react
   "emmet.triggerExpansionOnTab": true,
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  // html ÖÐ style ÊôÐÔÀïÐ´ css ¿ìËÙÌáÊ¾
+  // html ï¿½ï¿½ style ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð´ css ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾
   "[html]": {
     "editor.quickSuggestions": {
       "other": false,
