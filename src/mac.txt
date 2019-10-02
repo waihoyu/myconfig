@@ -1,0 +1,221 @@
+/*
+ *@description:
+ *@author: Wai HoYu
+ *@date: 2019-09-30 23:46:00
+ *@version: V1.0.5
+*/
+
+/**
+  git config --global user.email "13701343809@qq.com"
+  git config --global user.name "waihoyu"
+*/
+
+
+{
+    "file.associations": {
+        "*.vue": "vue",
+        "*.css": "scss"
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "pasteAndIndent.selectAfter": true,
+    "editor.minimap.enabled": false,
+    // "editor.fontSize": 18,
+    // "editor.fontFamily": "Fira Code",        //后边的引号中写上要设置的字体类型，个人比较喜欢Fira Code
+    "editor.fontLigatures": true,           //这个控制是否启用字体连字，true启用，false不启用，这里选择启用
+    "editor.fontSize": 16,                  //设置字体大小，这个不多说都明白
+    "editor.fontWeight": "normal",          //这个设置字体粗细，可选normal,bold,"100"~"900"等，选择合适的就行
+    "workbench.statusBar.feedback.visible": false,
+    // "workbench.colorTheme": "Default Dark+"
+    "editor.fontFamily": "'Fira Code','Courier New', monospace,Consolas",
+    // Set backgroundColor
+    "highlight-icemode.backgroundColor": "#D2FAB5",
+    // Set Border Color
+    "highlight-icemode.borderColor": "blue",
+    "gitlens.advanced.messages": {
+        "suppressShowKeyBindingsNotice": true
+    },
+    // "terminal.integrated.fontSize": 16,
+    // "terminal.integrated.color": "red",
+    // "terminal.integrated.fontFamily": "'Andale Mono'",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.letterSpacing": 0.1,
+    "terminal.integrated.fontSize": 14, //字体大小设置
+    // "terminal.integrated.fontFamily": "monospace", //字体设置
+    // "terminal.integrated.shell.linux": "/bin/zsh",
+    // "terminal.integrated.shell.osx": "/bin/zsh",
+    "terminal.integrated.fontFamily": "'Fira Code','Menlo for Powerline'",
+    "terminal.explorerKind": "external",
+    "terminal.external.osxExec": "iTerm.app",
+    "guides.enabled": false,
+    "workbench.activityBar.visible": true, // 两个选择器中是否换行
+    // "update.channel": "none",
+    // "update.channel": "default",
+    "path-intellisense.mappings": {
+        "@": "${workspaceRoot}/src"
+    },
+    "extensions.ignoreRecommendations": true,
+    "workbench.colorCustomizations": {
+        "scrollbarSlider.background": "#d41313",
+        "scrollbarSlider.activeBackground": "#f000",
+        "scrollbarSlider.hoverBackground": "#ff00",
+        "statusBar.background": "#1A1A1A",
+        "statusBar.noFolderBackground": "#0A0A0D",
+        "statusBar.debuggingBackground": "#511f1f",
+        "editorLineNumber.foreground": "#17a346",
+        //左侧的沟
+        "editorGutter.background": "#020230",
+        "editorCursor.foreground": "#d41313",
+        // 顶部 tab 栏
+        "tab.border": "#2e2e2e",
+        "tab.activeBackground": "#2e2e2e",
+        "tab.activeForeground": "#cfcfcf",
+        "tab.activeBorder": "#5b99fcb9",
+        "tab.hoverBackground": "#2e2e2e",
+        "tab.hoverBorder": "#5b99fcb9",
+        "tab.inactiveForeground": "#8e8e8e",
+        // 标尺
+        "editorRuler.foreground": "#3f3f3f",
+        // 快捷提示窗口
+        "editorSuggestWidget.highlightForeground": "#7bfc5ba2",
+        "editorSuggestWidget.selectedBackground": "#333f5c",
+        // 单击一个词时，其它相同单词
+        "editor.selectionHighlightBackground": "#ffe7921c",
+        "editor.selectionBackground": "#434e61c9",
+        // "editor.selectionHighlightBorder": "#90e97259",
+        // terminal 中的光标
+        "terminalCursor.foreground": "#7bfc5bb9",
+        // 侧边栏中一块区域的标题
+        "sideBarSectionHeader.background": "#32363d",
+        // 区域获取焦点时
+        "focusBorder": "#5b99fc36"
+    },
+    //"window.menuBarVisibility": "toggle",
+    "window.menuBarVisibility": "default",
+    "workbench.sideBar.location": "left",
+    "materialTheme.fixIconsRunning": false,
+    "search.followSymlinks": false,
+    "editor.wordWrap": "on",
+    "editor.tabSize": 4,
+    // "workbench.iconTheme": "vscode-great-icons",
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "afterDelay",
+    // Emmet 支持 react
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact"
+    },
+    // html 中 style 属性里写 css 快速提示
+    "[html]": {
+        "editor.quickSuggestions": {
+            "other": false,
+            "comments": false,
+            "strings": true
+        }
+    },
+    "sync.gist": "e1188d7d7febfb6c7172687b048eac8c",
+    "sync.host": "454fc56a200b7b64b2751c98ee19d3acb5811509",
+    "sync.pathPrefix": "",
+    "sync.quietSync": true,
+    "sync.askGistName": false,
+    "sync.removeExtensions": true,
+    "sync.syncExtensions": true,
+    "sync.autoDownload": true,
+    "sync.autoUpload": true,
+    "sync.lastUpload": "2018-07-28T14:14:17.659Z",
+    "sync.lastDownload": "",
+    "sync.forceDownload": true,
+    "terminal.integrated.shell.windows": "C:\\windows\\System32\\cmd.exe",
+    "window.zoomLevel": 0,
+    "emmet.syntaxProfiles": {
+        "vue-html": "html",
+        "vue": "html"
+    },
+    "eslint.validate": [
+        "javascript",
+        "javascriptreact",
+        "html",
+        "vue"
+    ],
+    "eslint.options": {
+        "plugins": [
+            "html"
+        ]
+    },
+    "python.jediEnabled": false,
+    "editor.formatOnType": false,
+    "editor.detectIndentation": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.cursorWidth": 3,
+    // "workbench.colorTheme": "'Atom One Dark'",
+    "vetur.validation.template": false,
+    "sync.forceUpload": true,
+    "workbench.colorCustomizations1": {
+        "[One Monokai]": {
+            // 编辑区域背景
+            "editor.background": "#2E2E2E",
+            // 侧边栏
+            "sideBar.background": "#2b2b2b",
+            "sideBar.foreground": "#999",
+            "sideBar.border": "#2b2b2b",
+            // 侧边栏列表
+            "list.inactiveSelectionBackground": "#32363d",
+            "list.inactiveSelectionForeground": "#dfdfdf",
+            "list.hoverBackground": "#32363d",
+            "list.hoverForeground": "#dfdfdf",
+            // peek 窗口
+            "peekView.border": "#5b99fc9c",
+            // 顶部 tab 栏
+            "tab.border": "#2e2e2e",
+            "tab.activeBackground": "#2e2e2e",
+            "tab.activeForeground": "#cfcfcf",
+            "tab.activeBorder": "#5b99fcb9",
+            "tab.hoverBackground": "#2e2e2e",
+            "tab.hoverBorder": "#5b99fcb9",
+            "tab.inactiveForeground": "#8e8e8e",
+            // 最左侧工具栏
+            "activityBar.background": "#2e2e2e",
+            // 状态栏
+            "statusBar.background": "#2a2a2a",
+            // panel 窗口
+            "panelTitle.activeBorder": "#5b99fc5b",
+            "panelTitle.activeForeground": "#cfcfcf",
+            // 光标
+            "editorCursor.foreground": "#7bfc5bb9",
+            // 当前行
+            "editor.lineHighlightBackground": "#32363d",
+            // 行号栏的当前行
+            "editorActiveLineNumber.foreground": "#9CA5B4",
+            // 行号
+            "editorLineNumber.foreground": "#020230",
+            "editorGutter.background": "#7bfc5bb9",
+            "'peekViewEditorGutter.background": "#5b99fc5b",
+            // 标尺
+            "editorRuler.foreground": "#3f3f3f",
+            // 快捷提示窗口
+            "editorSuggestWidget.highlightForeground": "#7bfc5ba2",
+            "editorSuggestWidget.selectedBackground": "#333f5c",
+            // 单击一个词时，其它相同单词
+            "editor.selectionHighlightBackground": "#ffe7921c",
+            "editor.selectionBackground": "#434e61c9",
+            // "editor.selectionHighlightBorder": "#90e97259",
+            // terminal 中的光标
+            "terminalCursor.foreground": "#7bfc5bb9",
+            // 侧边栏中一块区域的标题
+            "sideBarSectionHeader.background": "#32363d",
+            // 区域获取焦点时
+            "focusBorder": "#5b99fc36",
+            // Gutter indicators (left)
+            "editorGutter.modifiedBackground": "#5b99fc36",
+            "editorGutter.addedBackground": "#7bfc5bb9",
+            "editorGutter.deletedBackground": "#cfcfcf",
+            // Scrollbar indicators (right)
+            "editorOverviewRuler.addedForeground": "#5b99fc36",
+            "editorOverviewRuler.modifiedForeground": "#5b99fc36",
+            "editorOverviewRuler.deletedForeground": "#5b99fc36",
+        }
+    }
+}
